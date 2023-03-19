@@ -1,0 +1,4 @@
+ID                   Name                 Address              Department           Phone                Email                          Salary               
+----------           ----------           ----------           ----------           ----------           -------------------            ----------           
+1                    Ashutosh Tigga       Chaibasa             SDE                  8743287789           ashutoshtigga@gmail.com        50000.0              
+2                    Shiva Tigga          Indoe                SSDE                 3745873878           Shiva@gmail.com                90000.0              
