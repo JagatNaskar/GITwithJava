@@ -82,9 +82,9 @@ public class EmployeeManagement {
 			int choice = sc.nextInt();
 			switch(choice) {
 				case 1:
-					System.out.println("______________DISPLAYING__________________________");
+					System.out.println("____________________DISPLAYING__________________________");
 					display(arr);
-					System.out.println("__________________________________________________");
+					System.out.println("________________________________________________________");
 					break;
 				case 2:
 					System.out.println("______________ADDING EMPLOYEE_____________________");
@@ -192,6 +192,26 @@ public class EmployeeManagement {
 						System.out.println("Employee with id "+searchId+"is not present in the database.");
 					break;
 				case 6:
+					try {
+					fileOS = new FileOutputStream(f);
+					objectOS = new ObjectOutputStream(fileOS);
+					objectOS.writeObject(arr);
+					}catch(Exception e)
+					{
+						e.printStackTrace();
+					}
+					finally {
+						try {
+							fileIS.close();
+							
+							fileOS.close();
+							objectOS.close();
+						}catch(Exception e1)
+						{
+							e1.printStackTrace();
+						}
+					}
+					sc.close();
 					System.exit(0);
 					break;
 				default:
