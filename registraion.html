@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <div id="root">
+            <h1>Registration</h1>
+            <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+            <form method="post" action="register.php"> 
+                <script src="main.js"></script>
+                <body>
+                    <div class="form-body">
+                        <div class="division">
+                            <label class="fullname">Full Name</label>
+                            <input  type="text" id="fullname" name="fullname" required>
+                        </div>
+                        <div class="division">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" required>
+                        </div><br>
+                        <div class="division">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="division">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div><br>
+                        <div class="division">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                            <label for="Conpassword">Confirm Password</label>
+                            <input type="password" id="con_password" name="Confirm password" required>
+                        </div><br>
+                        <div class="division">
+                            <label for="gender">Gender</label>
+                            <input type="radio" name="male"/> Male  
+                            <input type="radio" name="female"/> Female 
+                            <input type="radio" name="other"/> Prefer not to say
+                        </div>
+                    <br><br>
+
+                    <button id = "button1" type="submit" value="Register">Register</button>
+                </div>
+        </div>
+    </body>
+    </form>
+</body>
+</html>

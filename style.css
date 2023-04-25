@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    background-color: rgba(255, 167, 95, 0.801);
+    border-radius: 63%;
+}
+h1 {
+    text-underline-position: below;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+#root{
+    height: 80%;
+    width: 50%;
+    margin: auto;
+    background-color: aliceblue;
+}
+#button1{
+        background-color: rgba(236, 87, 23, 0.801);
+        color: white;
+        font-size:large;
+        width: 100%;
+        height: max-content;
+        padding: 6px;
+        outline: none; 
+        border: none; 
+        border-radius: 3%;
+}
+.form{
+    margin: 20px;
+    padding: 1%;
+}
+.division {
+    width: 49%;
+    height: 40px;;
+    padding: 2px;
+    padding-left: 30px;
+    border-radius: 3%;
+    outline: none; 
+ 
+  border-color: rgba(235, 228, 228, 0.233);
+ }
+
